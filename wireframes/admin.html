@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Cosmetics Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-body">
+    <div class="admin-container">
+        <aside class="admin-sidebar">
+            <div class="admin-logo">Admin Panel</div>
+            <nav class="admin-nav">
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="admin-main">
+            <header class="admin-header">
+                <div class="admin-search">
+                    <input type="search" placeholder="Search...">
+                </div>
+                <div class="admin-user">
+                    <span>Admin User</span>
+                    <a href="#" class="logout">Logout</a>
+                </div>
+            </header>
+            <div class="admin-content">
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <h3>Total Sales</h3>
+                        <p>$10,500</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Orders</h3>
+                        <p>150</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Products</h3>
+                        <p>75</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Customers</h3>
+                        <p>500</p>
+                    </div>
+                </div>
+                <div class="recent-orders">
+                    <h2>Recent Orders</h2>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Products</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#12345</td>
+                                <td>John Doe</td>
+                                <td>3 items</td>
+                                <td>$150</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button class="btn-small">View</button>
+                                    <button class="btn-small">Edit</button>
+                                </td>
+                            </tr>
+                            <!-- More rows would go here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
